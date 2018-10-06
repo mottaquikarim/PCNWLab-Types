@@ -4,14 +4,47 @@ PROBLEM 1:
 What are the types of the following expressions and what do they evaluate to, and why?
 
 -> 17
--> 1 + 2 * 3 + 4
+
+
+{Number (the type of  value is a number)};
+
+
+-> 1 + 2 * 3 + 4 
+{operator. It will try to calculate starting at 2*3 and 1 +4};
+
 -> 800 / 80 / 8
+
+{Operator using divison};
+
+
 -> 400 > 200
+
+{Operator using comparison 400 is greater than 200};
+
+
 -> 1 !== 1
+
+{Comparison operator 1 is not the same as 1};
+
+
 -> true || false
+
+{Or operator truth or false};
+
+
 -> true && false
+
+{And operator truth and false};
+
+
 -> 20 % 6
+
+{The modulo or remainder operator 20 remainder 6};
+
+
 -> 'a' + 'b'
+
+{Strings which are used to represent text}
 
 ******************/
 
