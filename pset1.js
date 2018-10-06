@@ -16,6 +16,20 @@ What are the types of the following expressions and what do they evaluate to, an
 ******************/
 
 
+/* 
+ANSWERS
+-> number, its same value. 
+-> number, total is 11. 
+->number, total is 1.25.
+->boolean, it evaluates to true.
+->boolean, it evaluates to false.   
+->boolean, it evaluates to true.
+->boolean, it evaluates to false. 
+->number, it evaluates to 2. 
+->string, it evaluates to ab.
+*/
+
+
 
 /******************
 PROBLEM 2:
@@ -29,6 +43,13 @@ What will the following return? Why?
 
 ******************/
 
+/*
+ANSWERS
+->number
+->string
+->boolean
+->boolean, it evaluates to false
+*/
 
 /******************
 PROBLEM 3:
@@ -45,6 +66,16 @@ For reference, here is a truth table for the expression A && B:
 
 
 ******************/
+
+/*
+ANSWERS:
+|  A   |  B     | A || B|
+| true  | false | true  |
+| false | true  | true  | 
+| true  | true  | true  |
+| false | false | false |
+
+*/
 
 
 
@@ -63,7 +94,14 @@ For reference, here is a truth table for the expression A && !B:
 
 ******************/
 
-
+/*
+ANSWERS:
+A   -  B   - !B   -  A && !B
+true  true false     false
+false true false     false
+false false true     false  
+true  false true     true
+*/
 
 /******************
 PROBLEM 5:
@@ -79,6 +117,13 @@ For reference, here is a exp of a step-by-step evaluation:
 
 ******************/
 
+/*
+ANSWER:
+2 + 3 * 2 + 1:
+    2 + 6 + 1:
+        8 + 1:
+            9.
+*/
 
 
 /******************
@@ -89,7 +134,13 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
 ******************/
 
-
+/*
+ANSWER:
+4 / 2 + 8 / 4:
+    2 + 8 /4:
+        2 + 2:
+            4.
+*/
 
 /******************
 PROBLEM 7:
@@ -100,6 +151,14 @@ Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi
 
 ******************/
 
+/*
+ANSWER:
+'ca' + 'ter' + 'pi' + 'llar':
+    cater + 'pi' + 'llar':
+        caterpi + 'llar':
+            caterpillar.
+*/
+
 
 /******************
 PROBLEM 8:
@@ -108,3 +167,12 @@ Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'ca
 
 
 ******************/
+
+/*
+ANSWERS:
+2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+    8 === 8 && 'car' + 'pool' === 'carpool'
+        8 === 8 && 'carpool' === 'carpool'
+            true && true
+                true.
+*/
