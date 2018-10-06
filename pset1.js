@@ -3,7 +3,7 @@ PROBLEM 1:
 
 What are the types of the following expressions and what do they evaluate to, and why?
                               Solutions:
--> 17                         number  truthy         Numbers are truthy values
+-> 17                         number  truthy         Evaluate to 17 Numbers are truthy values
 -> 1 + 2 * 3 + 4              number  truthy 11      Numbers are truthy values Pemdas multiply then add from left to right
 -> 800 / 80 / 8               number  truthy 5/4     Numbers are truthy values Pemdas divide from left to right
 -> 400 > 200                  number  true           400 is greater than 200
