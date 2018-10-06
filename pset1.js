@@ -128,7 +128,7 @@ For reference, here is a exp of a step-by-step evaluation:
 
 ******************/
 
-it
+
 /******************
 SOLUTION TO PROBLEM 5:
 
