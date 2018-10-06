@@ -19,7 +19,7 @@ console.log(typeof (1 + 2 * 3 + 4)); //number - solution: 11
 console.log(typeof (400 > 200)); //boolean - solution: 400 is larger than 200 which is true
 console.log(typeof (1 !== 1)); //boolean  - solution: integrer 1 equals interger 1, which makes the statement false - false is a boolean
 console.log(typeof (true || false)); //boolean -  solution: returns true or true which simplies to true which is a boolean
-console.log(typeof (true && true)); //boolean - solution: returns true and true, which simplies to true which is a boolean
+console.log(typeof (true && false)); //boolean - solution: returns true and true, which simplies to true which is a boolean
 console.log(typeof (20%6)); //number - solution: solution simplies to 2, 2 is a number
 console.log(typeof ('a' + 'b')); //string -  solution: both a and b are strings
 
@@ -52,7 +52,7 @@ For reference, here is a truth table for the expression A && B:
 
 
 ******************/
-/* SOLUTION
+/* SOLUTIONS
 |   A   |   B   | A || B| 
 | true  | true  | true  |
 | false | true  | true  |
@@ -141,3 +141,4 @@ Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'ca
     true && true
     true
 */
+
