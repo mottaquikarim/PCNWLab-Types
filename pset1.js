@@ -14,6 +14,25 @@ What are the types of the following expressions and what do they evaluate to, an
 -> 'a' + 'b'
 
 ******************/
+//Answers to problem 1:
+//1- Number
+//2- Number, math operator, 1 + 2 * 3 + 4 = 3 + 6 + 4 = 9 + 4 = 13
+//3- Number, math operator, 800 / 80 / 8 = 10 / 8 = 1.25
+//4- Number, comparison operator, 400 > 200, 400 greater than 200, it returns boolean, 
+//true = 400 is greaster than 200
+//5- Boolean, comparison operator, !== means DO NOT EQUAL, 1 does not equal 1 is false,
+//boolean result false
+//6- Boolean, logical operator, || means eitehr can be true, true || false, 
+//the result would be TRUE because one is true. 
+//7- Boolean, logical operator, && means both must be true, true && false, 
+//the result will be FALSE, not both are true.
+//8- Number, math operator, % = modulus, modulos is the remainder after you devide a number,
+//the result will be 2
+//9- String, a and b are in single quotes, two strings are being put together because
+//there is a + sign, 'a' add to 'b", result = ab.
+
+
+
 
 
 
@@ -28,6 +47,11 @@ What will the following return? Why?
 -> 2 === 1 || 3 === 4
 
 ******************/
+//Answer problem 2:
+//'number'
+//'string'
+//'boolean'
+//'true'
 
 
 /******************
@@ -45,7 +69,14 @@ For reference, here is a truth table for the expression A && B:
 
 
 ******************/
+//Answer problem 3:
+// |   A   |   B   | A || B| 
+// | true  | true  | true  |
+// | false | true  | true  |
+// | true  | false | true  | 
+// | false | false | false |    
 
+// either can be true
 
 
 /******************
@@ -62,6 +93,14 @@ For reference, here is a truth table for the expression A && !B:
 | false | false |  true  | false | 
 
 ******************/
+//Answer problem 4:
+// |   A   |   B   |   !B   |   !A   |!A && !B| 
+// | true  | true  | false  | false  | true   |
+// | false | true  | false  | false  | false  |
+// | true  | false | true   | true   | false  |
+// | false | false |  true  | true   | true   |
+
+// A and B should equal their opposite at the same time.
 
 
 
@@ -78,7 +117,11 @@ For reference, here is a exp of a step-by-step evaluation:
 
 
 ******************/
-
+//Answe problem 5:
+//2 + 3 * 2 + 1 
+// -> 2 + 6 + 1
+//  ->    8 + 1
+//   ->       9
 
 
 /******************
@@ -88,7 +131,11 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
 
 ******************/
-
+//Answer problem 6:
+//   4 / 2 + 8 / 4
+//   ->  2 + 8 / 4
+//   ->      2 + 2
+//   ->          4
 
 
 /******************
@@ -99,7 +146,11 @@ Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi
 
 
 ******************/
-
+/*Answer problem 7:
+'ca' + 'ter' + 'pi' + 'llar'
+-> 'cater' + 'pi' + 'llar'
+-> 'carterpi' + llar
+-> 'carterpillar' */
 
 /******************
 PROBLEM 8:
@@ -108,3 +159,10 @@ Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'ca
 
 
 ******************/
+/* Answer to problem 8:
+2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+8 === 8 && 'car' + 'pool' === 'carpool'
+true && 'car' + 'pool' === 'carpool'
+true && 'carpool' === 'carpool'
+true && true
+result = true */
