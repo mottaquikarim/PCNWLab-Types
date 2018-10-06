@@ -19,19 +19,17 @@ What are the types of the following expressions and what do they evaluate to, an
 PROBLEM 1 SOLUTIONS: 
 
 -> 17 would evaluate to 17 and is a number
--> 1 + 2 * 3 + 4 would evaluate to 13 and is a number
--> 800 / 800 / 8 would evaluate to 1.25 and is a number
--> 400 > 200 would evaluate to true and is a boolean
--> 1 !== 1 would evaluate to false and is a boolean
--> true || false would evaluate to true and is a boolean
--> true && false would evaluate to false and is a boolean
--> 20 % 6 would evaluate to 2 and is a number
--> 'a' + 'b' would evaluate to ab and is a string
+-> 1 + 2 * 3 + 4 would evaluate to 11 due to order of operations and it is a number
+-> 800 / 800 / 8 would evaluate to 1.25 and it is a number
+-> 400 > 200 would evaluate to true because 400 is greater than 200 and true is a boolean value
+-> 1 !== 1 would evaluate to false because 1 does equal 1 and false is a boolean value
+-> true || false would evaluate to true because only one of the values has to be true for the expression to be true and true is a boolean value
+-> true && false would evaluate to false because only one of the values has to be false for the expression to be false and false and is a boolean value
+-> 20 % 6 would evaluate to 2 because 20/6 leave a remainder of 2 and 2 is a number
+-> 'a' + 'b' would evaluate to ab because they are strings and when strings are added together, they're literally just attached to each other.
 
 
 */
-
-
 
 /******************
 PROBLEM 2:
@@ -101,11 +99,11 @@ For reference, here is a truth table for the expression A && !B:
 /*
 PROBLEM 4 Solution:
 
-|  !A   |  !B   | !A && !B |
-| true  | true  |   true   |
-| false | true  |  false   |
-| true  | false |  false   |
-| false | false |  false   |
+|  A    |  B    |  !A   |  !B   | !A && !B |
+| false | false | true  | true  |   true   |
+| true  | false | false | true  |  false   |
+| false | true  | true  | false |  false   |
+| true  | true  | false | false |  false   |
 
 */
 
