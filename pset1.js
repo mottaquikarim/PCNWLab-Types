@@ -22,10 +22,10 @@ PROBLEM 2:
 
 What will the following return? Why?
                             Solutions:
--> typeof 4                 number
--> typeof 'hello'           string
--> typeof true              boolean
--> 2 === 1 || 3 === 4       false
+-> typeof 4                 number because 4 is a number
+-> typeof 'hello'           string anything in parentheses and single quote is recognized as a string
+-> typeof true              boolean true and false are boolean data sets
+-> 2 === 1 || 3 === 4       false 2 does not equal 1 or 3 does not equal 4
 
 ******************/
 
