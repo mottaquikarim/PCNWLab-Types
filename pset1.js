@@ -150,7 +150,7 @@ Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'ca
 
 /*  2 * 4 === 8 && 'car' + 'pool' === 'carpool'
       8 === 8 && 'car' + 'pool' === 'carpool'
-      8 === 8 && 'carpool' === 'carpool'
+      true && 'car' + 'pool' === 'carpool'
          true && 'carpool' === 'carpool'
          true && true
              true            
