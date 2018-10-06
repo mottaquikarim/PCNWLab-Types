@@ -149,6 +149,13 @@ For reference, here is a truth table for the expression A && !B:
 | true  | false | true   | true  |
 | false | false |  true  | false | 
 
+
+|   A   |   B   |  !A   |   !B   | A &&!B| 
+| true  | true  | false | false  | false  |
+| false | true  | true  | false  | false  |
+| true  | false | false |  true  | true   |
+| false | false | true  |  true  | false  | 
+
 |   A   |   B   |  !A   |   !B   | !A &&!B| 
 | true  | true  | false | false  | false  |
 | false | true  | true  | false  | false  |
