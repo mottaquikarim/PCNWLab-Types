@@ -18,8 +18,8 @@ console.log(typeof 17); // number - solution: 17
 console.log(typeof (1 + 2 * 3 + 4)); //number - solution: 11
 console.log(typeof (400 > 200)); //boolean - solution: 400 is larger than 200 which is true
 console.log(typeof (1 !== 1)); //boolean  - solution: integrer 1 equals interger 1, which makes the statement false - false is a boolean
-console.log(typeof (true || false)); //boolean -  solution: returns true or true which simplies to true which is a boolean
-console.log(typeof (true && false)); //boolean - solution: returns true and true, which simplies to true which is a boolean
+console.log(typeof (true || false)); //boolean -  solution: returns true or false which simplies to true which is a boolean
+console.log(typeof (true && false)); //boolean - solution: returns true and false, which simplies to false which is a boolean
 console.log(typeof (20%6)); //number - solution: solution simplies to 2, 2 is a number
 console.log(typeof ('a' + 'b')); //string -  solution: both a and b are strings
 
