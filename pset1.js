@@ -14,7 +14,14 @@ What are the types of the following expressions and what do they evaluate to, an
 -> 'a' + 'b'
 
 ******************/
-
+console.log(typeof 17); // number - solution: 17
+console.log(typeof (1 + 2 * 3 + 4)); //number - solution: 11
+console.log(typeof (400 > 200)); //boolean - solution: 400 is larger than 200 which is true
+console.log(typeof (1 !== 1)); //boolean  - solution: integrer 1 equals interger 1, which makes the statement false - false is a boolean
+console.log(typeof (true || false)); //boolean -  solution: returns true or true which simplies to true which is a boolean
+console.log(typeof (true && true)); //boolean - solution: returns true and true, which simplies to true which is a boolean
+console.log(typeof (20%6)); //number - solution: solution simplies to 2, 2 is a number
+console.log(typeof ('a' + 'b')); //string -  solution: both a and b are strings
 
 
 /******************
@@ -22,10 +29,10 @@ PROBLEM 2:
 
 What will the following return? Why?
 
--> typeof 4
--> typeof 'hello'
--> typeof true
--> 2 === 1 || 3 === 4
+-> typeof 4 - number - solution: 4 is an interger
+-> typeof 'hello' - string - solution: "hello" is a string
+-> typeof true - boolean - solution: true is a boolean
+-> 2 === 1 || 3 === 4 - false - solution: both left and right sides are false
 
 ******************/
 
@@ -45,9 +52,15 @@ For reference, here is a truth table for the expression A && B:
 
 
 ******************/
+/* SOLUTION
+|   A   |   B   | A || B| 
+| true  | true  | true  |
+| false | true  | true  |
+| true  | false | true  |
+| false | false | false | 
 
 
-
+*/
 /******************
 PROBLEM 4:
 
@@ -59,7 +72,7 @@ For reference, here is a truth table for the expression A && !B:
 | true  | true  | false  | false |
 | false | true  | false  | false |
 | true  | false | true   | true  |
-| false | false |  true  | false | 
+| false | false | true   | false | 
 
 ******************/
 
@@ -78,9 +91,14 @@ For reference, here is a exp of a step-by-step evaluation:
 
 
 ******************/
+/* SOLUTION
+   2 + 3 * 2 + 1
+   2 + (3*2) + 1
+   2 + 6 + 1
+   8 + 1
+   9
 
-
-
+*/
 /******************
 PROBLEM 6:
 
@@ -88,9 +106,12 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
 
 ******************/
-
-
-
+/* SOLUTION
+    4 / 2 + 8 / 4
+    (4 / 2) + (8 / 4)
+    2 + 2
+    4
+*/
 /******************
 PROBLEM 7:
 
@@ -99,8 +120,12 @@ Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi
 
 
 ******************/
-
-
+/* SOLUTION
+    'ca' + 'ter' + 'pi' + 'llar'
+    'cater' + 'pi' + 'llar'
+    'caterpi' + 'llar'
+    'caterpillar' 
+*/
 /******************
 PROBLEM 8:
 
@@ -108,3 +133,11 @@ Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'ca
 
 
 ******************/
+/* SOLUTION
+    2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+    8 === 8 && 'car' + 'pool' === 'carpool'
+    true  && 'car' + 'pool' === 'carpool'
+    true && 'carpool' === 'carpool'
+    true && true
+    true
+*/
