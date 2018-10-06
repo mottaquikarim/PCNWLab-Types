@@ -32,7 +32,7 @@ What will the following return? Why?
 -> typeof 4 - number - solution: 4 is an interger
 -> typeof 'hello' - string - solution: "hello" is a string
 -> typeof true - boolean - solution: true is a boolean
--> 2 === 1 || 3 === 4 - false - solution: both left and right sides are false
+-> 2 === 1 || 3 === 4 - boolean - solution: false both left and right sides are false
 
 ******************/
 
