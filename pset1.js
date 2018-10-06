@@ -158,6 +158,10 @@ Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'ca
   
       8 === 8 && carpool === 'carpool'
 
+      true && carpool === 'carpool' 
+
+       true && true 
+
 
 
 */ 
