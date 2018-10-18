@@ -14,6 +14,32 @@ What are the types of the following expressions and what do they evaluate to, an
 -> 'a' + 'b'
 
 ******************/
+// number evaluates to 17
+console.log(17);
+
+// number, evaluates to 11
+// 1 + 2 * 3 + 4 = 1 + 6 + 4 = 11 
+console.log(1 + 2 * 3 + 4);
+
+// number, evaluates to 1.25
+// 800 / 80 / 8 = 10 / 8 = 1.25
+console.log(800/80/8);
+
+// boolean, evaluates to true because 400 > 200
+console.log(400>200);
+
+// boolean, evaluates to false because 1 === 1
+console.log(1!==1);
+
+// boolean, evaluates to true, because true or false is true
+console.log(true || false);
+
+// boolean, evaluates to false, because true and false is false
+console.log(true && false);
+
+// number, evaluates to 2; 20 mod 6 = 2 (20/6 results in remainder = 2)
+console.log(20 % 6);
+//
 
 
 
