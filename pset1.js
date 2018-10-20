@@ -23,7 +23,7 @@ console.log ('a' + 'b'); /*combines and adds both both strings */
 
 
 
-/******************
+/*
 PROBLEM 2:
 
 What will the following return? Why?
@@ -34,7 +34,7 @@ What will the following return? Why?
 -> typeof true will return boolean because true is a boolean type
 -> 2 === 1 || 3 === 4 will return false because both evaluations are false. 2 is not 1 and 3 is not 4. 
 
-******************/
+*/
 
 
 /******************
@@ -50,6 +50,7 @@ For reference, here is a truth table for the expression A && B:
 | true  | false | false |
 | false | false | false | 
 
+ANSWER: 
 |   A   |   B   | A || B| 
 | true  | true  | true |
 | false | true  | true |
@@ -74,6 +75,8 @@ For reference, here is a truth table for the expression A && !B:
 | true  | false | true   | true  |
 | false | false |  true  | false |
 
+
+ANSWER: 
 |   A   |   B   |   !B   | !A    | A && !B| 
 | true  | true  | false  | false |  false|
 | false | true  | false  | true  |  true|
