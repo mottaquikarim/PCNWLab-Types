@@ -7,17 +7,17 @@ console.log (typeof 17); //asks for the type of value which shows a number. the 
 console.log (1 + (2 * 3) + 4); /*asks for a computation of the expression. first evaluates in pemdas order. 
                                 2*3
                                 1+(6)+4
-                                7+4=11*/
+                                7+4=11 answer is a num*/
 console.log ((800 / 80) / 8);/*  evaluates the expression with pemdas. 
                                 therefore first evaluate 800/80=10
-                                                         10/8=1.25*/
+                                                         10/8=1.25 answer is a num*/
 console.log (400 > 200); /* compares the two numbers. determines if 400 is more than 200. 
                             gives a boolean value of true because 400 is in fact bigger than 200*/
-console.log (1 !== 1);   /*  compares that 1 is not equal to 1. the answer is false because 1 is in fact 1*/ 
-console.log (true || false); /* asks if eitheir of the two values is true.*/
-console.log (true && false); /* compares that both statements on eithier side of the opeator are true*/
-console.log (20 % 60); /*shows the remainder from the division. */
-console.log ('a' + 'b'); /*combines and adds both both strings */
+console.log (1 !== 1);   /*  compares that 1 is not equal to 1. the answer is false because 1 is in fact 1 hence, it returns a false boolean data type*/ 
+console.log (true || false); /* asks if eitheir of the two values is true. returns boolean of true*/
+console.log (true && false); /* compares that both statements on eithier side of the opeator are true returns boolean false*/
+console.log (20 % 60); /*shows the remainder from the division which is num of 20. */
+console.log ('a' + 'b'); /*combines and adds both both strings returns string ab */
 
 
 
@@ -32,7 +32,7 @@ What will the following return? Why?
 -> typeof 4  will return number because the 4 is a type of number
 -> typeof 'hello' will return string because hello is a string 
 -> typeof true will return boolean because true is a boolean type
--> 2 === 1 || 3 === 4 will return false because both evaluations are false. 2 is not 1 and 3 is not 4. 
+-> 2 === 1 || 3 === 4 will return false because both evaluations are false. requires for atleast one to be true to return true. however, 2 is not 1 and 3 is not 4. 
 
 */
 
@@ -105,7 +105,7 @@ For reference, here is a exp of a step-by-step evaluation:
 /* 2 + 3 * 2 + 1
        6 *2  +1
          12  +1   
-            13
+            9
 */
 
 
