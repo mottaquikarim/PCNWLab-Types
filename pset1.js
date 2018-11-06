@@ -79,11 +79,13 @@ For reference, here is a truth table for the expression A && B:
 | true  | false | false |
 | false | false | false | 
 ******************/
-// |   A   |   B   | A || B| 
-// | true  | true  | true  |
-// | false | true  | true  |
-// | true  | false | true  |
-// | false | false | false |
+/* Truth table for A || B
+|   A   |   B   | A || B| 
+| true  | true  | true  |
+| false | true  | true  |
+| true  | false | true  |
+| false | false | false |
+*/
 console.log(true || true); 
 console.log(false || true); 
 console.log(true || false); 
@@ -127,10 +129,14 @@ For reference, here is a exp of a step-by-step evaluation:
         6 + 4
            10
 
-
 ******************/
-
-
+/* Solution to PROBLEM 5:
+2 + 3 * 2 + 1
+2 +     6 + 1
+        8 + 1
+            9
+*/
+console.log(2 + 3 * 2 + 1);
 
 /******************
 PROBLEM 6:
