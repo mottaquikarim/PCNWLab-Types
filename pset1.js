@@ -104,8 +104,17 @@ For reference, here is a truth table for the expression A && !B:
 | false | false |  true  | false | 
 
 ******************/
-
-
+/* Truth table for !A && !B
+|   A   |   B   |   !A   |   !B   | !A && !B| 
+| true  | true  | false  | false  | false |
+| false | true  | true   | false  | false |
+| true  | false | false  | true   | true  |
+| false | false |  true  | true   | false | 
+*/
+console.log(!true && !true);   // false
+console.log(!false && !true);  // false
+console.log(!true && !false);  // false
+console.log(!false && !false); // true
 
 /******************
 PROBLEM 5:
