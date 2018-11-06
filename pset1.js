@@ -78,10 +78,16 @@ For reference, here is a truth table for the expression A && B:
 | false | true  | false |
 | true  | false | false |
 | false | false | false | 
-
-
 ******************/
-
+// |   A   |   B   | A || B| 
+// | true  | true  | true  |
+// | false | true  | true  |
+// | true  | false | true  |
+// | false | false | false |
+console.log(true || true); 
+console.log(false || true); 
+console.log(true || false); 
+console.log(false || false); 
 
 
 /******************
