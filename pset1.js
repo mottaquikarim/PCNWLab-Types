@@ -39,7 +39,7 @@ console.log(true && false);
 
 // number, evaluates to 2; 20 mod 6 = 2 (20/6 results in remainder = 2)
 console.log(20 % 6);
-//
+
 
 
 
