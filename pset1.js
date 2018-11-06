@@ -54,6 +54,16 @@ What will the following return? Why?
 -> 2 === 1 || 3 === 4
 
 ******************/
+// typeof 4 returns number
+console.log (typeof 4);
+// typeof 'hello' returns string
+console.log(typeof 'hello');
+// typeof true returns boolean
+console.log(typeof true);
+// type of 2===1 || 3===4 returns false
+// either 2===1 (false), or 3===4 (also false)
+console.log(2===1 || 3===4);
+
 
 
 /******************
